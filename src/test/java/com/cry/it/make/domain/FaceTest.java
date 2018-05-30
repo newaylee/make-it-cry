@@ -9,7 +9,7 @@ public class FaceTest {
 
     @Test
     public void should_smile() throws Exception {
-        assertThat(new Face().face(), is("cry"));
+        assertThat(new Face().face(), is("smile"));
     }
 
 
